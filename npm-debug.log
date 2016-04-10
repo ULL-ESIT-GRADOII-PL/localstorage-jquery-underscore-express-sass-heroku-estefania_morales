@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'heroku',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'heroku', null ]
+7 verbose cache add spec heroku
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'heroku',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'heroku',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed heroku@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for heroku
+11 info addNameTag [ 'heroku', 'latest' ]
+12 silly mapToRegistry name heroku
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'heroku',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'heroku',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/heroku
+17 verbose addNameTag registry:https://registry.npmjs.org/heroku not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/heroku
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 20:50:18
+21 verbose request id 8de09e313c141007
+22 verbose etag "8OZHF9UI1QEZ33FPITI5RRATV"
+23 http request GET https://registry.npmjs.org/heroku
+24 http 304 https://registry.npmjs.org/heroku
+25 verbose headers { date: 'Sun, 10 Apr 2016 19:50:19 GMT',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   'cache-control': 'max-age=300',
+25 verbose headers   etag: '"8OZHF9UI1QEZ33FPITI5RRATV"',
+25 verbose headers   age: '142',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+25 verbose headers   'x-cache': 'HIT',
+25 verbose headers   'x-cache-hits': '2',
+25 verbose headers   'x-timer': 'S1460317819.095322,VS0,VE0',
+25 verbose headers   vary: 'Accept-Encoding' }
+26 silly get cb [ 304,
+26 silly get   { date: 'Sun, 10 Apr 2016 19:50:19 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     etag: '"8OZHF9UI1QEZ33FPITI5RRATV"',
+26 silly get     age: '142',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-fra1242-FRA',
+26 silly get     'x-cache': 'HIT',
+26 silly get     'x-cache-hits': '2',
+26 silly get     'x-timer': 'S1460317819.095322,VS0,VE0',
+26 silly get     vary: 'Accept-Encoding' } ]
+27 verbose etag https://registry.npmjs.org/heroku from cache
+28 verbose get saving heroku to /Users/EstefiMorales/.npm/registry.npmjs.org/heroku/.cache.json
+29 verbose correctMkdir /Users/EstefiMorales/.npm correctMkdir not in flight; initializing
+30 silly addNameTag next cb for heroku with tag latest
+31 silly addNamed heroku@0.2.0
+32 verbose addNamed "0.2.0" is a plain semver version for heroku
+33 silly cache afterAdd heroku@0.2.0
+34 verbose afterAdd /Users/EstefiMorales/.npm/heroku/0.2.0/package/package.json not in flight; writing
+35 verbose correctMkdir /Users/EstefiMorales/.npm correctMkdir not in flight; initializing
+36 verbose afterAdd /Users/EstefiMorales/.npm/heroku/0.2.0/package/package.json written
+37 silly install resolved [ { name: 'heroku',
+37 silly install resolved     description: 'Heroku API bindings for node.',
+37 silly install resolved     version: '0.2.0',
+37 silly install resolved     homepage: 'http://github.com/toots/node-heroku',
+37 silly install resolved     author: { name: 'Romain Beauxis' },
+37 silly install resolved     repository: { type: 'git', url: 'git://github.com/toots/node-heroku.git' },
+37 silly install resolved     bugs: { url: 'http://github.com/toots/node-heroku/issues' },
+37 silly install resolved     main: 'lib/heroku.js',
+37 silly install resolved     directories: { lib: './lib', test: './test', src: './src' },
+37 silly install resolved     scripts: { test: 'cake spec' },
+37 silly install resolved     engine: { node: '>= 0.4.7', npm: '1' },
+37 silly install resolved     licences: [ [Object] ],
+37 silly install resolved     dependencies: { 'coffee-script': '1.10.0', 'jasmine-node': '1.14.5' },
+37 silly install resolved     gitHead: 'f202e891f859ffd6ac6f04506bee7637f78e60a2',
+37 silly install resolved     _id: 'heroku@0.2.0',
+37 silly install resolved     _shasum: '48ca255080cb625dcbb3a3a69b3f3c8ef0796dd9',
+37 silly install resolved     _from: 'heroku@latest',
+37 silly install resolved     _npmVersion: '3.3.9',
+37 silly install resolved     _nodeVersion: '5.0.0',
+37 silly install resolved     _npmUser: { name: 'toots', email: 'toots@rastageeks.org' },
+37 silly install resolved     dist:
+37 silly install resolved      { shasum: '48ca255080cb625dcbb3a3a69b3f3c8ef0796dd9',
+37 silly install resolved        tarball: 'https://registry.npmjs.org/heroku/-/heroku-0.2.0.tgz' },
+37 silly install resolved     maintainers: [ [Object] ],
+37 silly install resolved     _npmOperationalInternal:
+37 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+37 silly install resolved        tmp: 'tmp/heroku-0.2.0.tgz_1458316035311_0.3929859565105289' },
+37 silly install resolved     _resolved: 'https://registry.npmjs.org/heroku/-/heroku-0.2.0.tgz',
+37 silly install resolved     readme: 'ERROR: No README data found!' } ]
+38 info install heroku@0.2.0 into /usr/local/lib
+39 info installOne heroku@0.2.0
+40 verbose installOne of heroku to /usr/local/lib not in flight; installing
+41 verbose correctMkdir /Users/EstefiMorales/.npm/_locks correctMkdir not in flight; initializing
+42 verbose lock using /Users/EstefiMorales/.npm/_locks/heroku-1f0311d54eba6df8.lock for /usr/local/lib/node_modules/heroku
+43 silly install write writing heroku 0.2.0 to /usr/local/lib/node_modules/heroku
+44 verbose unbuild lib/node_modules/heroku
+45 silly gentlyRm /usr/local/lib/node_modules/heroku is being purged from base /usr/local
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/heroku
+47 verbose tar unpack /Users/EstefiMorales/.npm/heroku/0.2.0/package.tgz
+48 verbose tar unpacking to /usr/local/lib/node_modules/heroku
+49 silly gentlyRm /usr/local/lib/node_modules/heroku is being purged
+50 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/heroku
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 error tar.unpack untar error /Users/EstefiMorales/.npm/heroku/0.2.0/package.tgz
+53 verbose unlock done using /Users/EstefiMorales/.npm/_locks/heroku-1f0311d54eba6df8.lock for /usr/local/lib/node_modules/heroku
+54 verbose fstream_path /usr/local/lib/node_modules/heroku
+55 verbose fstream_type Directory
+56 verbose fstream_class DirWriter
+57 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku'
+57 verbose stack     at Error (native)
+58 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+58 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+58 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+59 verbose cwd /Users/EstefiMorales/Documents/Clases/PL/Práctica 7. SASS/localstorage-jquery-underscore-express-sass-heroku-estefania_morales
+60 error Darwin 15.3.0
+61 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "heroku" "--save"
+62 error node v4.4.2
+63 error npm  v2.15.0
+64 error path /usr/local/lib/node_modules/heroku
+65 error code EACCES
+66 error errno -13
+67 error syscall mkdir
+68 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku'
+68 error     at Error (native)
+68 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku']
+68 error   errno: -13,
+68 error   code: 'EACCES',
+68 error   syscall: 'mkdir',
+68 error   path: '/usr/local/lib/node_modules/heroku',
+68 error   fstream_type: 'Directory',
+68 error   fstream_path: '/usr/local/lib/node_modules/heroku',
+68 error   fstream_class: 'DirWriter',
+68 error   fstream_stack:
+68 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+68 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+68 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+69 error Please try running this command again as root/Administrator.
+70 verbose exit [ -13, true ]
+71 verbose unbuild lib/node_modules/heroku
+72 silly gentlyRm /usr/local/lib/node_modules/heroku is being purged from base /usr/local
+73 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/heroku
